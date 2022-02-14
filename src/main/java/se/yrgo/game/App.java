@@ -1,10 +1,10 @@
-package se.yrgo.game.game;
+package se.yrgo.game;
 
 import java.util.Scanner;
-import se.yrgo.game.game.things.BoringThing;
-import se.yrgo.game.game.things.CoffePot;
-import se.yrgo.game.game.things.Flower;
-import se.yrgo.game.game.things.Thing;
+import se.yrgo.game.things.BoringThing;
+import se.yrgo.game.things.CoffePot;
+import se.yrgo.game.things.Flower;
+import se.yrgo.game.things.Thing;
 
 public class App {
     public static void main(String[] args) {

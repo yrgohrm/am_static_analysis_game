@@ -1,4 +1,4 @@
-package se.yrgo.game.game;
+package se.yrgo.game;
 
 import java.util.Random;
 

@@ -1,6 +1,6 @@
-package se.yrgo.game.game.things;
+package se.yrgo.game.things;
 
-import se.yrgo.game.game.Player;
+import se.yrgo.game.Player;
 
 public class BoringThing implements Thing {
     private String description;

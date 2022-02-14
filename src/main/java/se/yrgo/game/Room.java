@@ -1,9 +1,9 @@
-package se.yrgo.game.game;
+package se.yrgo.game;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import se.yrgo.game.game.things.Thing;
+import se.yrgo.game.things.Thing;
 
 public class Room {
     private String description;
