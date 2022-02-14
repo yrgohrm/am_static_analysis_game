@@ -6,15 +6,6 @@ import se.yrgo.game.game.things.CoffePot;
 import se.yrgo.game.game.things.Flower;
 import se.yrgo.game.game.things.Thing;
 
-/*
-
-Spelare (liv, namn)
-Olika rum (beskrivning, monster, saker och leda till andra rum)
-Saker (namn)
-Monster (namn, skada, liv)
-
-*/
-
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -38,7 +29,7 @@ public class App {
             }
 
             player.decreaseHealth(1);
-            if (player.getHealth() == 0) {
+            if (!(player.getHealth() != 0)) {
                 System.out.println("Du är nu tyvärr död...");
                 break;
             }
@@ -103,7 +94,7 @@ public class App {
             System.out.println("Här kan du se:");
             int count = 1;
             for (Thing thing : currentRoom.getThings()) {
-                System.out.printf("\t%d. %s%n", count, thing.getDescription());
+                System.out.printf("\t%d. %s%n", count, thing.getDescription().toString());
                 count++;
             }
         }
